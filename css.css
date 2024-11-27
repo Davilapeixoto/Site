@@ -7,19 +7,24 @@ body {
 }
 
 header {
-    background-color: #0077cc;
+    background-color: #000000;
     padding: 10px 0;
 }
 
 .navbar {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
 .navbar li {
+    font-size: 18px;
+    padding: 10px 10px;
+    border: 2px solid white;
+    border-radius: 5px; 
+    background-color: #333;
     margin: 0 15px;
 }
 
@@ -28,7 +33,7 @@ header {
     text-decoration: none;
 }
 
-.hero, .about, .projects {
+.hero {
     text-align: center;
     text-align: left;
     padding: 50px 20px;
