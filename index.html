@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - Início</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
     <link rel="stylesheet" href="css.css">
 </head>
 <body>
@@ -21,15 +22,16 @@
             <h1>Bem-vindo</h1>
             <p>Estudante de Ciências da Computação e desenvolvedor em busca de oportunidades!</p>
         </section>
-        <button id="mapa">Mostrar Mapa</button>
-<div id="map" style="height: 500px; width: 100%; display: none;"></div>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="codigo.js"></script>
-
+        <div class="centro">
+            <button id="mapa">Mostrar cidade onde cresci</button>
+            <div id="map" style="height: 500px; width: 100%; display: none;"></div>
+        </div>
+        
     </main>
     <footer>
         <p>&copy; 2024 Davila - Todos os direitos reservados.</p>
     </footer>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="codigo.js"></script>
 </body>
 </html>

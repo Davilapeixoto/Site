@@ -13,7 +13,7 @@ header {
 
 .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -21,11 +21,11 @@ header {
 
 .navbar li {
     font-size: 18px;
-    padding: 10px 10px;
+    padding: 10px 15px;
     border: 2px solid white;
-    border-radius: 5px; 
+    border-radius: 5px;
     background-color: #333;
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 .navbar a {
@@ -34,8 +34,12 @@ header {
 }
 
 .hero {
-    text-align: center;
     text-align: left;
+    padding: 50px 20px;
+}
+
+.centro {
+    text-align: center;
     padding: 50px 20px;
 }
 
@@ -45,8 +49,17 @@ button {
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
 }
 
 button:hover {
     background-color: #005fa3;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #ccc; /* Para destacar o contêiner */
 }
